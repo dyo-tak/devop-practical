@@ -12,5 +12,5 @@ services:
     build: ./myblog
     container_name: myblog_c
     ports:
-      - '3000:3000'
+      - '3000:80'
     stdin_open: true
